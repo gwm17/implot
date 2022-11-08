@@ -235,7 +235,7 @@ void ModSelector(const char* label, ImGuiModFlags* k) {
     ImGui::PopID();
 }
 
-void InputMapping(const char* label, ImGuiMouseButton* b, ImGuiKeyModFlags* k) {
+void InputMapping(const char* label, ImGuiMouseButton* b, ImGuiModFlags* k) {
     ImGui::LabelText("##","%s",label);
     if (b != NULL) {
         ImGui::SameLine(100);
